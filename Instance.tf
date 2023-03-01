@@ -11,7 +11,7 @@ resource "aws_instance" "terraform_EC2" {
   instance_type = "t2.micro"
   security_groups=["launch-wizard-3"]
   associate_public_ip_address = true
-  key_name = "KeyGudoo"
+  key_name = "secondawsfile"
   count = 3
 
   tags = {
