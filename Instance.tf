@@ -15,7 +15,7 @@ resource "aws_instance" "terraform_EC2" {
   count = 3
 
   tags = {
-    Name ="TestingServer"
+    Name ="IndexerCluster"
     Environment = "DEV"
     OS = "Linux"
   }
